@@ -1,7 +1,7 @@
-var arr = [1, 2, 3, 4, 5, 6];
-var soma = 0
+let arr = [1, 2, 3, 4, 5, 6];
+let soma = 0
 //for 
-for(var i = 0; i < arr.length; i++) {
+for(let i = 0; i < arr.length; i++) {
     soma += arr[i];
 }
 console.log(soma); 
@@ -24,3 +24,4 @@ console.log(profissões.indexOf("medico"));
 }
 
 console.log(profissões.includes("pedreiro."));
+
